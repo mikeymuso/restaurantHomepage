@@ -55,7 +55,7 @@ const addFooter = () => {
     const footer = document.createElement('div');
 
     footer.id = 'footer';
-    footer.innerHTML = `<p>Created by <a href="www.mikecotton.co.uk">Mike Cotton</a> for an Odin Project Challenge</p>`
+    footer.innerHTML = `<p>Created by <a href="http://www.mikecotton.co.uk">Mike Cotton</a> for an Odin Project Challenge</p>`
 
     contentDiv.append(footer);
 }
