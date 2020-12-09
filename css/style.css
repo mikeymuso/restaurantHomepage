@@ -1,0 +1,146 @@
+body, h1, h2, h3, p, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffba93;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#button-container {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1080px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  width: 90vw;
+  margin: 2em auto 0 auto;
+}
+
+#button-container .button {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 3em;
+  border: none;
+  background-color: #583d72;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#button-container .button:hover {
+  background-color: #9f5f80;
+}
+
+#button-container .active {
+  background-color: #4f3369;
+}
+
+#container {
+  width: 90vw;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #4f3369;
+  padding-bottom: 5em;
+  color: #f0f0f0;
+}
+
+#container h1 {
+  padding-top: 20px;
+  font-size: 3em;
+}
+
+#container p {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2em;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+#container p .feature {
+  color: #ffba93;
+}
+
+#hero-img {
+  width: 100%;
+  height: 25em;
+  margin-top: 1em;
+}
+
+#contact-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% auto;
+      grid-template-columns: 50% auto;
+  padding: 3em 3em;
+}
+
+#contact-container img {
+  width: 100%;
+}
+
+#contact-container #details-right {
+  padding-left: 1em;
+  padding-top: 2em;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+#menu-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#menu-container h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#menu-container #menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+#menu-container #menu-list h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ff8e71;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#menu-container #menu-list .menu-desc {
+  padding: 0;
+  margin-top: .6em;
+}
+
+#menu-container #menu-list .price {
+  padding: 0;
+  margin-bottom: 2.5em;
+}
+
+#footer {
+  background-color: #583d72;
+  color: white;
+  width: 90vw;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+#footer p {
+  margin: 0;
+  padding: 1em;
+  font-size: 14px;
+}
+
+#footer p a {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
